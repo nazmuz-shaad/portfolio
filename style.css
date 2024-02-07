@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+section {
+  margin-top: 123px;
+}
+
+header {
+  background: #fff8f3;
+  background-image: url('images/developer.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* navigation bar  */
+
+nav {
+  display: flex;
+  padding: 20px 53px 20px 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.special-letter {
+  font-family: 'Pacifico', cursive;
+  font-weight: 900;
+  font-size: 55px;
+  color: #fd6e0a;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* buttons */
+.primary-button {
+  font-size: 25px;
+  font-weight: 400;
+  flex-shrink: 0;
+  color: white;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.btn-sec {
+  border-radius: 10px;
+  padding: 15px 37px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  flex-shrink: 0;
+  color: #fd6e0a;
+  border: 3px solid #fd6e0a;
+}
+
+
+
+
+
+/* Header Banner */
+
+.banner {
+  display: flex;
+  background-image: url('images/header_bg.png');
+  background-position: right bottom;
+  background-size: 70%;
+  align-items: center;
+  margin-left: 150px;
+  justify-content: space-between;
+  padding-right: 5%;
+  background-repeat: no-repeat;
+}
+
+.bn-pri {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.bn-sec {
+  font-size: 85px;
+  font-weight: 700;
+  padding-top: 30px;
+  color: #ea4a00;
+}
+
+/* Primary  style */
+
+.article-style {
+  color: var(--Dark-03, #757575);
+
+  font-size: 20px;
+
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+
+
+
+/* about section all */
+.about-section {
+  background-color: #fff8f3;
+  margin: 125px 150px;
+  padding: 131px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* about section container */
+.container-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-title {
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.container-p {
+  color: var(--Dark-02, #474747);
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Experience section */
+.exp-title-p {
+  margin: 40px 300px 30px 300px;
+  text-align: center;
+}
+
+.features-main {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.features {
+  margin: 15px;
+  padding: 25px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.-titlefeature {
+  color: var(--Dark-01, #181818);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.small-p {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+
+/* resume section */
+
+.resume-infos {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin: 90px 113px 30px 113px;
+}
+
+.row-title {
+  font-size: 30px;
+  color: #474747;
+}
+
+.resume-row hr {
+  color: #d1d1d1;
+
+}
+
+.info-title {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #474747;
+}
+
+.info-sub {
+  font-size: 20px;
+  padding-top: 10px;
+  color: var(--Dark-03, #757575);
+}
+
+.info-p {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.download-cv {
+  text-align: center;
+
+}
+
+/* Footer section */
+
+.footer-container {
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+
+
+
+.footer-row .section-title {
+  text-align: left;
+}
+
+.social-links a img {
+  padding-right: 10px;
+}
+
+.footer-row form input[ type=text],
+[type=email],
+textarea {
+  margin-bottom: 25px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 10px;
+}
+
+.footer-row form input[type=submit] {
+  font-size: 25px;
+  font-weight: 400;
+  flex-shrink: 0;
+  color: white;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+
+}
